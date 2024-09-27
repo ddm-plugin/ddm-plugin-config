@@ -1,0 +1,35 @@
+{
+  "pluginStoreSwitch": true,
+  "recommendList": [
+    "ddm-plugin-dubbo-support",
+    "ddm-plugin-demo"
+  ],
+  "blacklist": [],
+  "discoveryPlugin": {
+    "dataSource": {
+      "zookeeper": {
+        "title": "当前数据源【zookeeper】需要安装插件",
+        "plugins": [
+          "ddm-plugin-dubbo-support"
+        ]
+      },
+      "nacos": {
+        "title": "当前数据源【nacos】需要安装插件",
+        "plugins": [
+          "ddm-plugin-dubbo-support"
+        ]
+      },
+      "dubbo-admin": {
+        "title": "当前数据源【dubbo-admin】需要安装插件",
+        "plugins": [
+          "ddm-plugin-dubbo-support"
+        ]
+      }
+    },
+    "i18n": {
+      "zh-TW": [
+        "ddm-plugin-i18n-zh-TW"
+      ]
+    }
+  }
+}

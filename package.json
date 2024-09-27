@@ -1,0 +1,16 @@
+{
+  "name": "ddm-plugin-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "publish": "node index.js && npm publish"
+  },
+  "files": [
+    "config.json"
+  ],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://gitlab.com/qiaolin-li/ddm-plugin-config#readme"
+}
